@@ -1,0 +1,49 @@
+# Node.js
+node_modules/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test results
+coverage/
+.nyc_output
+
+# Cache
+.cache
+.eslintcache
+
+# Build artifacts
+*.map
+
+# Editor and IDE files
+.vscode/
+*.swp
+*.swo
+*.swn
+*.lock
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# MongoDB
+mongod.lock
+
+# Prettier and ESLint
+.prettierignore
+
+# Swagger
+api-docs/
